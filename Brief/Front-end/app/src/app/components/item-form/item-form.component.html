@@ -1,0 +1,34 @@
+<div class="container mt-5">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white text-center">
+            <h4>{{ isUpdate ? 'Update Item' : 'Add Item' }}</h4>
+        </div>
+        <div class="card-body">
+            <form (ngSubmit)="saveItem()">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Item Name</label>
+                    <input type="text" id="name" class="form-control" [(ngModel)]="item.name" name="name" required
+                        placeholder="Enter item name" />
+                </div>
+                <div class="mb-3">
+                    <label for="quantity" class="form-label">Quantity</label>
+                    <input type="number" id="quantity" class="form-control" [(ngModel)]="item.quantity" name="quantity"
+                        required placeholder="Enter quantity" />
+                </div>
+                <div class="mb-3">
+                    <label for="value" class="form-label">Value</label>
+                    <input type="number" id="value" class="form-control" [(ngModel)]="item.value" name="value" required
+                        placeholder="Enter value" />
+                </div>
+                <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn btn-success">
+                        {{ isUpdate ? 'Update Item' : 'Add Item' }}
+                    </button>
+                    <button type="button" class="btn btn-secondary" routerLink="/">
+                        Cancel
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-header {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.form-control {
+    border-radius: 4px;
+    padding: 10px;
+}
+
+button {
+    font-weight: bold;
+    padding: 8px 20px;
+}

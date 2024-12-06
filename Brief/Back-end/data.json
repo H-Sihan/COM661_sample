@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Item A",
+        "value": 100,
+        "quantity": 10,
+        "category": "Category 1"
+    },
+    {
+        "name": "Item B",
+        "value": 200,
+        "quantity": 20,
+        "category": "Category 2"
+    },
+    {
+        "name": "Item C",
+        "value": 300,
+        "quantity": 15,
+        "category": "Category 3"
+    },
+    {
+        "name": "Item D",
+        "value": 400,
+        "quantity": 5,
+        "category": "Category 1"
+    }
+]

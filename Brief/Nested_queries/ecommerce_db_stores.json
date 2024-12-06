@@ -1,0 +1,99 @@
+{
+    "store": {
+        "storeId": "S12345",
+        "name": "Tech Haven",
+        "location": {
+            "address": {
+                "street": "123 Innovation Drive",
+                "city": "Tech City",
+                "state": "Innovate State",
+                "zip": "12345"
+            },
+            "geo": {
+                "latitude": 37.7749,
+                "longitude": -122.4194
+            }
+        },
+        "inventory": [
+            {
+                "productId": "P001",
+                "name": "Laptop Pro 15",
+                "category": "Electronics",
+                "details": {
+                    "manufacturer": "Tech Corp",
+                    "specs": {
+                        "processor": "Intel i7",
+                        "ram": "16GB",
+                        "storage": {
+                            "type": "SSD",
+                            "size": "512GB"
+                        },
+                        "battery": "10 hours",
+                        "warranty": "2 years"
+                    }
+                },
+                "price": 1499.99,
+                "stock": 10,
+                "reviews": [
+                    {
+                        "reviewId": "R1001",
+                        "userId": "U12345",
+                        "rating": 4.5,
+                        "comment": "Great performance, but a bit expensive.",
+                        "date": "2024-12-01"
+                    },
+                    {
+                        "reviewId": "R1002",
+                        "userId": "U12346",
+                        "rating": 4.0,
+                        "comment": "Good battery life and build quality.",
+                        "date": "2024-12-02"
+                    }
+                ]
+            },
+            {
+                "productId": "P002",
+                "name": "Wireless Mouse",
+                "category": "Accessories",
+                "details": {
+                    "manufacturer": "Accessory Co",
+                    "specs": {
+                        "connectivity": "Bluetooth",
+                        "battery": "Rechargeable",
+                        "dpi": "1600"
+                    }
+                },
+                "price": 29.99,
+                "stock": 50,
+                "reviews": []
+            }
+        ],
+        "orders": [
+            {
+                "orderId": "O1001",
+                "customerId": "C12345",
+                "items": [
+                    {
+                        "productId": "P001",
+                        "quantity": 1,
+                        "price": 1499.99
+                    },
+                    {
+                        "productId": "P002",
+                        "quantity": 2,
+                        "price": 59.98
+                    }
+                ],
+                "totalPrice": 1559.97,
+                "orderDate": "2024-12-03",
+                "deliveryStatus": "Shipped",
+                "shippingAddress": {
+                    "street": "456 Tech Avenue",
+                    "city": "Gadget Town",
+                    "state": "Innovate State",
+                    "zip": "67890"
+                }
+            }
+        ]
+    }
+}
